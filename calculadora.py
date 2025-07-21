@@ -9,7 +9,7 @@ with col_logo1:
 
 with col_logo2:
     st.markdown("<div style='display: flex; align-items: center; justify-content: center; height: 100px;'>"
-                "<img src='logo_dp61 (2).png' width='120'></div>", unsafe_allow_html=True)
+                "<img src='logo_dp6.png' width='120'></div>", unsafe_allow_html=True)
 
 
 
