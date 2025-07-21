@@ -1,9 +1,18 @@
 import streamlit as st
 
-st.set_page_config(page_title="Calculadora de Receita", layout="centered")
+st.set_page_config(page_title="Calculadora de Receita", page_icon="📊", layout="centered")
 
-st.title("📊 Calculadora de Receita do Cliente")
-st.markdown("Ajuste os parâmetros abaixo e veja como isso impacta nos resultados.")
+# Layout com 2 colunas: Granero e DP6
+col_logo1, col_logo2 = st.columns([1, 1])
+
+with col_logo1:
+    st.image("https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api", width=150)  # Granero
+
+with col_logo2:
+    st.image("https://www.dp6.com.br/wp-content/uploads/2021/07/logo-dp6.svg", width=120)  # DP6
+
+st.title("📊 Simulador de Receita do Cliente")
+st.markdown("""Ajuste os parâmetros de geração de leads e conversão para simular como mudanças no processo comercial podem impactar a **receita final**.""")
 
 st.subheader("🔧 Parâmetros de entrada")
 
