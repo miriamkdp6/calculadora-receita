@@ -10,11 +10,11 @@ ticket_medio = st.number_input("Ticket Médio (R$)", value=3000.00, step=100.0, 
 leads_mes = st.number_input("Leads por mês", value=11000, step=100)
 taxa_qualificacao = st.number_input("Taxa de Qualificação de Lead (%)", value=27.52, step=0.1, format="%.2f") / 100
 
-tx_conversao = 0.1671
+taxa_conversao = st.number_input("Taxa de Conversão (%)", value=16.71, step=0.1, format="%.2f") / 100
 receita_atual = 1517535.36
 
 leads_qualificados = leads_mes * taxa_qualificacao
-convertidos = leads_qualificados * tx_conversao
+convertidos = leads_qualificados * taxa_conversao
 receita_calculada = convertidos * ticket_medio
 receita_incremental = receita_calculada - receita_atual
 
