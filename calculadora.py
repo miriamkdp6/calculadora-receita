@@ -9,7 +9,7 @@ with col_logo1:
     st.image("https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api", width=150)  # Granero
 
 with col_logo2:
-    st.image("https://www.dp6.com.br/wp-content/uploads/2021/07/logo-dp6.svg", width=120)  # DP6
+    st.image("https://media.licdn.com/dms/image/C4D0BAQEOZWEk8Yk_zw/company-logo_200_200/0/1630507692180?e=2147483647&v=beta&t=2w8JWNoH9RrlI6jgvbmuH23QUrR-TCAl7s_XeCwCCkc", width=120)
 
 st.title("📊 Simulador de Receita do Cliente")
 st.markdown("""Ajuste os parâmetros de geração de leads e conversão para simular como mudanças no processo comercial podem impactar a **receita final**.""")
