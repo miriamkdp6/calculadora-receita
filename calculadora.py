@@ -2,14 +2,11 @@ import streamlit as st
 
 st.set_page_config(page_title="Calculadora de Receita", page_icon="📊", layout="centered")
 
-# Layout com 2 colunas: Granero e DP6
 col_logo1, col_logo2 = st.columns([1, 1])
-
 with col_logo1:
-    st.image("https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api", width=150)  # Granero
-
+    st.image("https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api", width=150)
 with col_logo2:
-    st.image("https://media.licdn.com/dms/image/C4D0BAQEOZWEk8Yk_zw/company-logo_200_200/0/1630507692180?e=2147483647&v=beta&t=2w8JWNoH9RrlI6jgvbmuH23QUrR-TCAl7s_XeCwCCkc", width=120)
+    st.image("https://i.imgur.com/1q7XDRM.png", width=120)  # Link da primeira imagem acima
 
 st.title("📊 Simulador de Receita do Cliente")
 st.markdown("""Ajuste os parâmetros de geração de leads e conversão para simular como mudanças no processo comercial podem impactar a **receita final**.""")
