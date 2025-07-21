@@ -2,16 +2,17 @@ import streamlit as st
 
 st.set_page_config(page_title="Calculadora de Receita", page_icon="📊", layout="centered")
 
-col_logo1, col_logo2 = st.columns([1, 1])
+col1, col2 = st.columns([1, 1])
 
-with col_logo1:
+with col1:
+    st.markdown("<div style='display: flex; align-items: center; justify-content: center; height: 120px;'>", unsafe_allow_html=True)
     st.image("https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api", width=150)
+    st.markdown("</div>", unsafe_allow_html=True)
 
-with col_logo2:
+with col2:
+    st.markdown("<div style='display: flex; align-items: center; justify-content: center; height: 120px;'>", unsafe_allow_html=True)
     st.image("logo_dp6.png", width=120)
-
-
-
+    st.markdown("</div>", unsafe_allow_html=True)
 
 st.title("📊 Simulador de Receita do Cliente")
 st.markdown("""Ajuste os parâmetros de geração de leads e conversão para simular como mudanças no processo comercial podem impactar a **receita final**.""")
