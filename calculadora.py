@@ -3,13 +3,13 @@ import streamlit as st
 st.set_page_config(page_title="Calculadora de Receita", page_icon="📊", layout="centered")
 
 col_logo1, col_logo2 = st.columns([1, 1])
+
 with col_logo1:
-    st.markdown("<div style='display: flex; align-items: center; justify-content: center; height: 100px;'>"
-                "<img src='https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api' width='150'></div>", unsafe_allow_html=True)
+    st.image("https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api", width=150)
 
 with col_logo2:
-    st.markdown("<div style='display: flex; align-items: center; justify-content: center; height: 100px;'>"
-                "<img src='logo_dp6.png' width='120'></div>", unsafe_allow_html=True)
+    st.image("logo_dp6.png", width=120)
+
 
 
 
