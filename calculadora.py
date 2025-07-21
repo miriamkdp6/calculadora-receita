@@ -6,7 +6,7 @@ col_logo1, col_logo2 = st.columns([1, 1])
 with col_logo1:
     st.image("https://tse3.mm.bing.net/th/id/OIP.Ap_nLsfv7a8pYhd25rGXYgHaHa?pid=Api", width=150)  # Granero
 with col_logo2:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DP6_logo.png/320px-DP6_logo.png", width=120)  # DP6
+    st.image("logo_dp61 (2).png", width=120)  # DP6
 
 
 st.title("📊 Simulador de Receita do Cliente")
