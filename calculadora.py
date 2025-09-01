@@ -17,7 +17,6 @@ with col2:
     leads_mes = st.number_input("👥 Leads por mês", value=11000, step=100)
     taxa_conversao = st.number_input("🔄 Taxa de Conversão (%)", value=16.71, step=0.1, format="%.2f") / 100
 
-
 receita_atual = 1517535.36
 
 leads_qualificados = leads_mes * taxa_qualificacao
